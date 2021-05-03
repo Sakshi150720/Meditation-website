@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medica Fitness</title>
+</head>
+
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+<!-- <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Poppins:wght@100&display=swap" rel="stylesheet"> -->
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+
+        background: url('med5.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+
+
+
+    }
+
+    .left {
+        position: absolute;
+        top: 0px;
+        left: 34px;
+        top: 108px;
+        display: inline-block;
+        /* border: 2px solid red; */
+        font-size: 30px;
+    }
+
+    .mid {
+        display: block;
+        width: 35%;
+
+        margin: 18px auto;
+        /* border: 2px solid rgb(53, 117, 27); */
+    }
+
+    .right {
+        position: absolute;
+        top: 0px;
+        right: 34px;
+        top: 35px;
+        display: inline-block;
+        /* border: 2px solid rgb(201, 212, 37); */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 30px 10px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(80, 12, 80);
+    }
+
+    .btn {
+        margin: 0px 8px;
+        background-color: rgb(75, 10, 63);
+        color: white;
+        padding: 2px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(20, 10, 104);
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 95px 869px;
+        padding: 25px;
+        width: 33%;
+        border-radius: 28px;
+        font-size: 15px;
+
+    }
+
+    .cont {
+        margin: 41px 638px;
+        padding: 24px;
+        width: 33%;
+        /* border-radius: 28px; */
+        font-size: 15px;
+
+
+
+    }
+</style>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <marquee direction="right">Welcome to medica! </marquee>
+        </div>
+        <div class="mid">
+
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us </button>
+            <button class="btn">Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+        <h1>What is meditation?</h1><br>
+        <h3>Meditation isn’t about becoming a different person, a new person, or even a better person. It’s about
+            training in awareness and getting a healthy sense of perspective. You’re not trying to turn off your
+            thoughts or feelings. You’re learning to observe them without judgment. And eventually, you may start to
+            better understand them as well.</h3>
+
+    </div>
+
+    <div class="cont">
+        <h1>Join us now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
